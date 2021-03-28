@@ -1,0 +1,12 @@
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --epochs 80 --batch-size 8192 --pred-steps 1 --train
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --pred-steps 1 --eval
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --epochs 40 --batch-size 8192 --pred-steps 2 --train
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --pred-steps 1 --eval
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --epochs 20 --batch-size 8192 --pred-steps 4 --train
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --pred-steps 1 --eval
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --epochs 10 --batch-size 8192 --pred-steps 8 --train
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --pred-steps 1 --eval
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --epochs 5 --batch-size 8192 --pred-steps 16 --train
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --pred-steps 1 --eval
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --epochs 80 --batch-size 8192 --pred-steps 1 --train
+python run_swarmnet.py --data-dir ../Swarms/data/ --config configs/example.json --log-dir logs/ --pred-steps 1 --eval
