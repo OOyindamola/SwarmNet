@@ -2,8 +2,7 @@
     "edge_type": 3,
     "cnn": {
         "filters": [
-            32,
-            64
+          
         ]
     },
     "edge_encoder": {

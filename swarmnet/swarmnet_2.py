@@ -44,7 +44,6 @@ class SwarmNet(keras.Model):
         # Predicted difference added to the prev state.
         # The last state in each timeseries of the stack.
         prev_state = time_segs[:, :, -1, :]
-        
         next_state = prev_state + self.out_layer(node_state)
         return next_state
 

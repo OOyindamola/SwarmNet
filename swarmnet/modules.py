@@ -194,6 +194,7 @@ class GraphConv(keras.layers.Layer):
 class OutLayer(keras.layers.Layer):
     def __init__(self, unit, bound=None, name=None):
         super().__init__(name=name)
+        print("==============", bound)
 
         if bound is None:
             self.bound = 1.
